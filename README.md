@@ -31,7 +31,7 @@ SQL-проект по работе с реляционной базой данн
 **Связи:** фильмы связаны с режиссёрами, актёрами и жанрами через промежуточные таблицы. Пользователи связаны с фильмами через оценки, рецензии и избранное.
 
 **Схема базы данных**
-![ERD](kinopoisk_diagram_er.png)
+![ERD](kinopoisk_er_diagram.png)
 
 ---
 
@@ -111,7 +111,7 @@ SQL-проект по работе с реляционной базой данн
 - `cinema-db/`
   - `README.md`
   - `schema.sql` - информация о таблицах
-  - `kinopoisk_difgram_er.png` - схема связей таблиц
+  - `kinopoisk_er_diagram.png` - схема связей таблиц
   - `queries/`
     - `01_selects_and_filtering.sql`
     - `02_subqueries_and_aggregations.sql`
